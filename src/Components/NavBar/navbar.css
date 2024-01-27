@@ -1,0 +1,24 @@
+.navbar {
+    height: 6.25rem;
+}
+.wrapper {
+    max-width: 85.375rem ;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+span {
+    font-weight: bold;
+    cursor: pointer;
+}
+.social {
+    display: flex;
+    gap: 1.25rem; 
+    cursor: pointer;
+}
+.social img {
+    width: 1.125rem;
+    height: 1.125rem;
+}

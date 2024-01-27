@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+
 import './App.css';
+import NabBar from './Components/NavBar/navbar';
+import Hero from './Components/Hero/hero';
+import Parallax from './Components/Parallax/parallax';
+import Services from './Components/Services/services';
+// import Portfolio from './Components/Portfolio/portfolio';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+   <div>
+      <section id="HomePage">
+        <NabBar />
+        <Hero />
+      </section>
+      <section id="services">
+        <Parallax type="services" />
+        </section>
+      <section>
+        <Services />
+      </section>
+      <section id="Portfolio">
+        <Parallax type="portfolio" />
+        </section>
+      {/* <Portfolio /> */}
+      <section id="Contact">Contact</section>
+      
+
+   </div>
+  )
 }
 
-export default App;
+export default App

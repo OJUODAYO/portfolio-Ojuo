@@ -1,0 +1,80 @@
+.services {
+    background: linear-gradient(180deg, #0c0c1d, #111132);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.textContainer {
+    flex: 1;
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+p{
+    font-weight: 200;
+    font-style: 1.25rem;
+    color: gray;
+    text-align: right;
+}
+hr {
+    width: 31.25rem;
+    border: none;
+    border-top: .0313rem solid gray;
+}
+.titleContainer {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.title {
+    display: flex;
+    gap: 3.125rem;
+    align-items: center;
+}
+.title img {
+    width: 18.75rem;
+    height: 6.25rem;
+    border-radius: 3.125rem;
+    object-fit: cover;
+}
+.H1{
+    font-size: 6rem;
+    font-weight: 100;
+}
+.BtnServices {
+    width: 18.75rem;
+    height: 6.25rem;
+    border-radius: 3.125rem;
+    background-color: orange;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.listContainer {
+    flex: 2;
+    display: flex;
+    max-width: 85.375rem;
+    margin: auto;
+   
+
+}
+.box {
+    padding: 3.125rem;
+    border: .0313rem solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ 
+
+}
+.BtnGo {
+    padding: .625rem;
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+}
